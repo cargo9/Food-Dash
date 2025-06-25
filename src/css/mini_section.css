@@ -1,0 +1,74 @@
+.mini {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin: -80px auto 0;
+  position: relative;
+  z-index: 10;
+  width: 80%;
+  height: 180px;
+  border: 1px solid red;
+}
+
+.ul_mini {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fast_delivery_mini_svg {
+  margin-top: -30px;
+  width: 100px;
+  height: 100px;
+}
+
+.promis_mini {
+  margin-left: 120px;
+  margin-top: 15px;
+  color: #939393;
+  width: 150px;
+}
+
+.fast_delivery_mini {
+  margin-left: 120px;
+  margin-top: -90px;
+  font-size: 33px;
+}
+
+.fresh_svg_mini {
+  margin-top: 4px;
+  width: 90px;
+  height: 90px;
+}
+
+.fresh_mini {
+  margin-left: 120px;
+  margin-top: -90px;
+  font-size: 33px;
+}
+
+.your_mini {
+  margin-left: 120px;
+  margin-top: 15px;
+  color: #939393;
+  width: 220px;
+}
+
+.box_svg_mini {
+  margin-top: 4px;
+  width: 90px;
+  height: 90px;
+}
+
+.free_mini {
+  margin-left: 100px;
+  margin-top: -90px;
+  font-size: 33px;
+}
+
+.order_mini {
+  margin-left: 100px;
+  margin-top: 15px;
+  color: #939393;
+  width: 220px;
+}
