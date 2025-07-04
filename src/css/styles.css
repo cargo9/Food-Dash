@@ -9,6 +9,10 @@
 @import url('./header.css');
 @import url('./homepage.css');
 @import url('./mini_section.css');
+@import url('./home_menu.css');
+@import url('./advertising_banner.css');
+@import url('./mein_menu.css');
+@import url('./promo_banner.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
 
 :root {
@@ -25,8 +29,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-.body {
-  background-color: #ffefe6;
 }

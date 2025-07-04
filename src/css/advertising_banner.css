@@ -1,0 +1,23 @@
+.advertising_banner {
+  background-color: #ffefe6;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ul_advertising_banner {
+  display: flex;
+}
+.p_Rajasthan_advertising_banner {
+  color: #1a2716;
+  font-family: Lexend;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100px;
+}
+.img_star_advertising_banner {
+  width: 48px;
+  height: 48px;
+  margin-top: 26px;
+  margin-right: 25px;
+}

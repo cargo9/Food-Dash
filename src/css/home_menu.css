@@ -1,0 +1,74 @@
+.home_menu {
+  border: 1px solid red;
+  margin-top: -100px;
+  height: 770px;
+}
+
+.h2_home_menu {
+  font-family: Lexend;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 475px;
+  margin-left: 200px;
+}
+.span_h2_home_menu {
+  color: #ff6000;
+}
+.home_menu_margin {
+  margin-top: 150px;
+}
+.p_home_menu {
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #b3b3b3;
+  width: 475px;
+  margin-left: 1250px;
+  margin-top: -80px;
+}
+.ul_food_cards_home_menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.li_food_card_pualo {
+}
+.img_food_card_home_menu {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  border: 7px dotted #ff6000;
+  padding: 10px;
+  border-style: double;
+}
+.p_food_card_Pulao {
+  text-align: center;
+  font-family: Lexend;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 217px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.button_food_card_home_menu {
+  text-align: center;
+  font-family: Lexend;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #ff6000;
+  border: none;
+  background-color: none;
+  margin-left: 50px;
+  margin-top: 20px;
+}
