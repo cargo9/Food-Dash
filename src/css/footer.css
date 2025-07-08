@@ -1,0 +1,125 @@
+.footer {
+  background-color: #ffefe6;
+}
+
+.footer_wrapper {
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer_logo {
+  margin-bottom: 30px;
+}
+
+.copyright_Food_Dash_footer {
+  margin-bottom: 30px;
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #939393;
+}
+
+.avtor_By_footer {
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #939393;
+}
+
+.wraper_social_footer {
+  margin-top: 36px;
+}
+
+.footer_social_list {
+  display: flex;
+  margin-top: 35px;
+}
+
+.footer_social_item {
+  margin-left: 16px;
+}
+.div_footer_wraper_logo {
+  width: 375px;
+}
+.footer_menu {
+  font-family: Lexend;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #ff6000;
+}
+.footer_munu_item {
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #939393;
+  margin-top: 32px;
+}
+.footer_menu_contact {
+  border: 1px solid red;
+}
+
+.footer_social_logo {
+  border: 1px solid green;
+}
+
+.footer_information {
+  font-family: Lexend;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #ff6000;
+}
+
+.footer_information_item {
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #939393;
+  margin-top: 32px;
+}
+
+.footer_contact {
+  font-family: Lexend;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #ff6000;
+}
+
+.footer_contact_item {
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #939393;
+  margin-top: 32px;
+}
+
+.footer_menu_contact {
+  width: 100px;
+}
+
+.footer_information_list {
+  width: 222px;
+  border: 1px solid red;
+}
+
+.footer_contact_list {
+  border: 1px solid red;
+  width: 345px;
+}
