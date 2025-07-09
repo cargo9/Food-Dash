@@ -1,5 +1,6 @@
 .footer {
   background-color: #ffefe6;
+  border-top: 2px dashed #ff6000;
 }
 
 .footer_wrapper {
@@ -7,6 +8,8 @@
   display: flex;
   justify-content: space-between;
   gap: 100px;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .footer_logo {
@@ -121,5 +124,4 @@
 
 .footer_contact_list {
   border: 1px solid red;
-  width: 345px;
 }
