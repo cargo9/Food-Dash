@@ -68,7 +68,6 @@
   margin-top: 32px;
 }
 .footer_menu_contact {
-  border: 1px solid red;
 }
 
 .footer_social_logo {
@@ -119,9 +118,7 @@
 
 .footer_information_list {
   width: 222px;
-  border: 1px solid red;
 }
 
 .footer_contact_list {
-  border: 1px solid red;
 }
