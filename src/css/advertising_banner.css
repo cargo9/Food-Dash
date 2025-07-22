@@ -1,4 +1,4 @@
-.advertising_banner {
+.ul_advertising_banner {
   background-color: #ffefe6;
   display: flex;
   justify-content: space-evenly;
@@ -16,8 +16,31 @@
   line-height: 100px;
 }
 .img_star_advertising_banner {
-  width: 48px;
-  height: 48px;
-  margin-top: 26px;
-  margin-right: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: -30px;
+}
+
+li:first-child img.img_star_advertising_banner {
+  position: absolute;
+  left: 180px;
+  bottom: -630px;
+}
+
+li:nth-child(2) img.img_star_advertising_banner {
+  position: absolute;
+  left: 600px;
+  bottom: -630px;
+}
+
+li:nth-child(3) img.img_star_advertising_banner {
+  position: absolute;
+  left: 1050px;
+  bottom: -630px;
+}
+
+li:nth-child(4) img.img_star_advertising_banner {
+  position: absolute;
+  left: 1410px;
+  bottom: -630px;
 }

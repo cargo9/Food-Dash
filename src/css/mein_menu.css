@@ -4,6 +4,13 @@
   margin-top: 80px;
 }
 
+.ul_main_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 145px;
+}
+
 .h2_mein_menu {
   font-family: Lexend;
   font-size: 48px;
@@ -84,9 +91,9 @@
 }
 
 .star_png_food_card {
-  position: absolute;
+  /* position: absolute;
   margin-left: 24px;
-  margin-top: 5px;
+  margin-top: 5px; */
 }
 
 .span_food_card {
