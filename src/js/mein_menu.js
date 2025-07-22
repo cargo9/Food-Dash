@@ -12,7 +12,7 @@ function displayPriceDishes() {
 
     const span = document.createElement('span');
     span.textContent = priceDish.span;
-    span.classList.add('p_food_card_Pulao');
+    span.classList.add('span_h2_mein_menu');
 
     const name = document.createElement('p');
     name.textContent = priceDish.name;
