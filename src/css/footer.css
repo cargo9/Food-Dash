@@ -10,6 +10,8 @@
   gap: 100px;
   width: 1240px;
   margin: 0 auto;
+  padding-left: 0;
+  margin-left: -50px;
 }
 
 .footer_logo {
@@ -44,6 +46,10 @@
   margin-top: 35px;
 }
 
+.telegram_img {
+  width: 24px;
+}
+
 .footer_social_item {
   margin-left: 16px;
 }
@@ -68,10 +74,6 @@
   margin-top: 32px;
 }
 .footer_menu_contact {
-}
-
-.footer_social_logo {
-  border: 1px solid green;
 }
 
 .footer_information {

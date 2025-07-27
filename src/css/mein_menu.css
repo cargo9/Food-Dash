@@ -60,7 +60,13 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+ 
 }
+
+.button_div_mein_menu{
+  margin-left: auto;
+}
+
 
 .food_card {
   margin-top: 200px;
