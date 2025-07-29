@@ -1,0 +1,36 @@
+const bestDishes = [
+  {
+    image: 'https://i.ibb.co/TqHzyV3y/20230716194412-fpdl-1-1.png',
+    name: 'Indian Vegetable Pulao',
+    imageStar: 'https://i.ibb.co/GQ31hr09/Star-1.png',
+    span: '(50)',
+    price: '₹200',
+    buttonImageMinus: 'https://i.ibb.co/Y43GDLzf/Outline.png',
+    count: '00',
+    buttonImagePlus: 'https://i.ibb.co/jvQnf4Dm/plus.png',
+    button: 'ADD TO CART',
+  },
+  {
+    image:
+      'https://i.ibb.co/k2VbyKNY/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface-1.png',
+    name: 'Paneer Bhuna Masala',
+    imageStar: 'https://i.ibb.co/GQ31hr09/Star-1.png',
+    span: '(50)',
+    price: '₹200',
+    buttonImageMinus: 'https://i.ibb.co/Y43GDLzf/Outline.png',
+    count: '00',
+    buttonImagePlus: 'https://i.ibb.co/jvQnf4Dm/plus.png',
+    button: 'ADD TO CART',
+  },
+  {
+    image: 'https://i.ibb.co/TqHzyV3y/20230716194412-fpdl-1-1.png',
+    name: 'Vermicelli Upma',
+    imageStar: 'https://i.ibb.co/GQ31hr09/Star-1.png',
+    span: '(50)',
+    price: '₹200',
+    buttonImageMinus: 'https://i.ibb.co/Y43GDLzf/Outline.png',
+    count: '00',
+    buttonImagePlus: 'https://i.ibb.co/jvQnf4Dm/plus.png',
+    button: 'ADD TO CART',
+  },
+];
