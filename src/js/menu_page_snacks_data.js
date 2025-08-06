@@ -1,6 +1,7 @@
 const bestSnacks = [
   {
-    image: 'https://i.ibb.co/PsWWdh9V/20230720134751-fpdl.jpg',
+    image:
+      'https://i.ibb.co/Kxk6q3FJ/20230720134751-fpdl.pnghttps://i.ibb.co/PsWWdh9V/20230720134751-fpdl.jpg',
     name: 'Indian Vegetable Pulao',
     rating: 4,
     span: '(50)',
