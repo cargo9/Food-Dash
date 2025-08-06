@@ -1,4 +1,4 @@
-const bestRegular = [
+const bestRegularData = [
   {
     image: 'https://i.ibb.co/tw7z93Ld/20230720135940-fpdl.png',
     name: 'Masala Dosa',
