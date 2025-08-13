@@ -1,0 +1,167 @@
+
+.singup_div {
+    display: flex;
+    width: 1818px;
+    /* max-width: 100%; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+.singup {
+  width: 100%;
+}
+
+.singup_div_form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+
+/* .singup_form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+} */
+
+.singup_wrapper {
+
+  width: 395px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height:  575px;
+ 
+}
+
+.singup_div_h2 {
+ color: #2A2A2A;
+font-size: 33.344px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ font-family: "Open Sans", sans-serif;
+}
+
+
+.singup_div_button {
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+.singup_a {
+  display: flex;
+  border-radius: 8.336px;
+border: 0.834px solid #2A2A2A;
+color: #2A2A2A;
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.24px;
+padding: 20px;
+
+}
+
+.singup_logo {
+  width: 163px;
+  margin-bottom: 100px;
+}
+
+.singup_a_img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.singup_div_img {
+  background-image:url('../img/Rectangle-69.png') ;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.singup_form_p {
+  color: grey;
+font-family: "Open Sans";
+font-size: 13.338px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.singup_form_imput_email {
+  width: 372.203px;
+height: 78.359px;
+border: none;
+color: #000000;
+font-family: "Open Sans";
+font-size: 20.006px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-bottom: 1px solid #2A2A2A;
+}
+
+.singup_a_Continue {
+color: white;
+text-align: center;
+font-family: Lexend;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 100% */
+letter-spacing: 0.25px;
+background-color: #FF6000 ;
+padding: 18px 100px ;
+border-radius: 50px;
+}
+
+.singup_a_Continue:hover {
+  color: #FF6000;
+  background-color: white;
+}
+
+/* .login_form {
+  height: 575px;
+} */
+
+.singup_button {
+  margin-bottom: 50px;
+}
+
+.singup_div_a {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.singup_singup_p {
+color: #2A2A2A;
+
+font-family: "Open Sans";
+font-size: 13.338px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.singup_singup_a {
+color: #FF6000;
+font-family: "Open Sans";
+font-size: 13.338px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.singup_a:hover {
+  background-color: #000000;
+  color: white;
+}
