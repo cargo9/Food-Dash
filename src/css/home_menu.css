@@ -27,7 +27,8 @@
   line-height: normal;
   color: #b3b3b3;
   width: 475px;
-  margin-left: 1250px;
+  /* margin-left: 1250px; */
+  margin-left: 70%;
   margin-top: -80px;
 }
 .ul_food_cards_home_menu {

@@ -1,6 +1,6 @@
 const dishes = [
   {
-    image: 'https://i.ibb.co/0y79X7CV/food-card.png',
+    image: 'https://ibb.co/qFRb6tQ6',
     name: 'Indian Vegetable Pulao',
     link: 'Order Now >',
   },
