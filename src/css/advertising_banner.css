@@ -21,26 +21,47 @@
   margin: -30px;
 }
 
-li:first-child img.img_star_advertising_banner {
-  position: absolute;
-  left: 180px;
-  bottom: -630px;
+/* li:first-child img.img_star_advertising_banner {
+  
+  left: 377px;
+  bottom: -718px;
 }
 
 li:nth-child(2) img.img_star_advertising_banner {
   position: absolute;
-  left: 600px;
-  bottom: -630px;
+  left: 745px;
+  bottom: -718px;
 }
 
 li:nth-child(3) img.img_star_advertising_banner {
   position: absolute;
   left: 1050px;
-  bottom: -630px;
+  bottom: -718px;
 }
 
 li:nth-child(4) img.img_star_advertising_banner {
   position: absolute;
   left: 1410px;
-  bottom: -630px;
+  bottom: -718px;
+} */
+
+.p_Rajasthan_advertising_banner::after {
+  position: relative;
+  display: block;
+  content: '';
+  width: 48px;
+  height: 48px;
+  background-image: url('../img/Star.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -75px;
+  left: 200px;
+}
+
+.ul_advertising_banner:nth-child(2)::after {
+  content: '';
+  display: block;
+  position: relative;
+  left: 100px;
 }

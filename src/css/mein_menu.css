@@ -1,3 +1,11 @@
+@media (width: 1024px) {
+  .mein_menu {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 80px;
+ }
+}
+
 .mein_menu {
   width: 1540px;
   margin: 0 auto;
