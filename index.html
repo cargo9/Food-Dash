@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-name/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+     <script>
+        if (!localStorage.getItem('hasVisited')) {
+            localStorage.setItem('hasVisited', 'true');
+            window.location.replace('page_login.html');
+        }
+    </script>
+    
+    <script type="module" crossorigin src="/project-name/assets/main-3cfb730f.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/styles-63f1b30f.css">
+  </head>
+  <body class="body"> 
+    <header class="header">
+
+  <a href="../index.html"><img class="logo_header" src="../img/Logo.svg" /></a>
+  <ul class="menu_list">
+    <li class="menu_item"><a class="menu_link" href="">Home</a></li>
+    <li class="menu_item"><a class="menu_link" href="">Menu</a></li>
+    <li class="menu_item"><a class="menu_link" href="">Offers</a></li>
+    <li class="menu_item"><a class="menu_link" href="">Service</a></li>
+    <li class="menu_item"><a class="menu_link" href="">About Us</a></li>
+  </ul>
+  <ul class="search_user">
+    <li class="li_user_photo_header">
+      <button>
+        <img class="user_photo_header" src="../img/Vector.svg" alt="search" />
+      </button>
+    </li>
+    <li>
+      <img src="../img/user.png" alt="search" />
+    </li>
+  </ul>
+</header>
+
+    <section class="homepage">
+  <div class="wrapper_homepage">
+    <h1 class="h_homepage">
+      Quick <span class="mini_word_homepage">and</span> Tasty<br />
+      Food Delivered <span class="mini_word_homepage">with</span> a Dash of
+      <span class="mini_word_homepage">Speed</span>
+    </h1>
+    <button class="button_homepage">Order Now</button>
+    <button class="button_homepage transparent_btn">Track Order</button>
+  </div>
+  <img class="img_homepage" src="../img/general_photo.png" alt="photo" />
+</section>
+
+    <section class="mini">
+  <ul class="ul_mini">
+    <li>
+      ><img
+        src="../img/fast-delivery.svg"
+        class="fast_delivery_mini_svg"
+        alt="svg"
+      />
+      <h4 class="fast_delivery_mini">Fast Delivery</h4>
+      <p class="promis_mini">Promise To Deliver Within 30 Mins</p>
+    </li>
+    <li>
+      <img src="../img/fresh.svg" class="fresh_svg_mini" alt="svg" />
+      <h4 class="fresh_mini">Fresh Food</h4>
+      <p class="your_mini">
+        Your Food Will Be Delivered 100% Fresh To Your Home.
+      </p>
+    </li>
+    <li>
+      <img src="../img/box.svg" class="box_svg_mini" alt="svg" />
+      <h4 class="free_mini">Free Delivery</h4>
+      <p class="order_mini">
+        Your Food Delivery Is Absolutely Free. No Cost Just Order
+      </p>
+    </li>
+  </ul>
+</section>
+
+    <section class="home_menu">
+  <div class="home_menu_margin">
+    <h2 class="h2_home_menu">
+      Our <span class="span_h2_home_menu">Best Delivered</span> Indian Dish
+    </h2>
+    <p class="p_home_menu">
+      It’s Not Just About Bringing You Good Food From Restaurants, We Deliver
+      You Experience
+    </p>
+    <ul class="ul_food_cards_home_menu" id="ul_food_cards_home_menu"></ul>
+  </div>
+</section>
+
+    <section class="advertising_banner">
+  <ul class="ul_advertising_banner" id="ul_advertising_banner"></ul>
+</section>
+
+    <section class="mein_menu">
+  <div class="container">
+  <div class="div_mein_menu">
+    <div class="text_div_mein_menu">
+      <h2 class="h2_mein_menu">
+        Our <span class="span_text_mein_menu">Regular</span> Menu
+      </h2>
+      <p class="p_mein_menu">
+        There Are Our Regular Menus. You Can Order Anything You Like
+      </p>
+    </div>
+    <div class="button_div_mein_menu">
+      <a href="../menu_page.html" class="button_mein_menu">See All<a/>
+    </div>
+  </div>
+
+  
+  <div class="food_card">
+    <ul id="ul_main_menu" class="ul_main_menu">
+    </ul>
+  </div>
+  </div>
+</section>
+
+    <section class="promo_banners">
+  <img src="../img/coupon_code.png" alt="coupon_code" />
+  <ul class="ul_promo_banners">
+    <li><img src="../img/special_offer.png" alt="special_offer" /></li>
+    <li><img src="../img/indian_restaurant.png" alt="indian_restaurant" /></li>
+  </ul>
+</section>
+
+    <section class="footer">
+  <div class="container">
+    <div class="footer_wrapper">
+      <div class="footer_social_logo">
+        <div class="div_footer_wraper_logo">
+          <img src="../img/Logo.svg" class="footer_logo" alt="logo" />
+          <p class="copyright_Food_Dash_footer">
+            Food Dash ©2023 All Rights Reserved
+          </p>
+          <p class="avtor_By_footer">By - Piyush Prajapat</p>
+        </div>
+        <div class="wraper_social_footer">
+          <img
+            src="../img/Follow_Us_On.png"
+            class="follow_us_img"
+            alt="Follow_Us_On"
+          />
+          <ul class="footer_social_list">
+            <li class="footer_social_item">
+              <a href="https://www.instagram.com/" class="footer_social_link"
+                ><img
+                  src="../img/Outline.svg"
+                  class="footer_social_img"
+                  alt="Outline"
+              /></a>
+            </li>
+            <li class="footer_social_item">
+              <a href="https://ua.linkedin.com/" class="footer_social_link"
+                ><img src="../img/in.svg" class="footer_social_img" alt="in"
+              /></a>
+            </li>
+            <li class="footer_social_item">
+              <a href="https://www.facebook.com/" class="footer_social_link"
+                ><img src="../img/F.svg" class="footer_social_img" alt="F"
+              /></a>
+            </li>
+            <li class="footer_social_item">
+              <a href="https://x.com/" class="footer_social_link"
+                ><img
+                  src="../img/twitter.svg"
+                  class="footer_social_img"
+                  alt="twitter"
+              /></a>
+            </li>
+            <li class="footer_social_item">
+              <a href="" class="footer_social_link"
+                ><img
+                  src="../img/telegram.svg"
+                  class="footer_social_img telegram_img"
+                  alt="telegram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_menu_contact">
+        <div class="wrapper_menu">
+          <h3 class="footer_menu">Menu</h3>
+          <ul class="footer_menu_list">
+            <li class="footer_munu_item">
+              <a href="#" class="footer_link_menu">Home</a>
+            </li>
+            <li class="footer_munu_item">
+              <a href="#" class="footer_link_menu">Offers</a>
+            </li>
+            <li class="footer_munu_item">
+              <a href="#" class="footer_link_menu">Service</a>
+            </li>
+            <li class="footer_munu_item">
+              <a href="#" class="footer_link_menu">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_information_list">
+        <h3 class="footer_information">Information</h3>
+        <ul class="footer_information_item">
+          <a href="#" class="footer_information_link">Menu</a>
+        </ul>
+        <ul class="footer_information_item">
+          <a href="#" class="footer_information_link">Quality</a>
+        </ul>
+        <ul class="footer_information_item">
+          <a href="#" class="footer_information_link">Make A Choice</a>
+        </ul>
+        <ul class="footer_information_item">
+          <a href="#" class="footer_information_link">Fast Delivery</a>
+        </ul>
+      </div>
+      <div class="footer_contact_list">
+        <h3 class="footer_contact">Contact</h3>
+        <ul class="footer_contact_item">
+          <a href="tel:+123456789" class="footer_contact_link">+123456789</a>
+        </ul>
+        <ul class="footer_contact_item">
+          <a href="#" class="footer_contact_link">Explore</a>
+        </ul>
+        <ul class="footer_contact_item">
+          <a href="mailto:Info@Fooddash.com" class="footer_contact_link"
+            >Info@Fooddash.com</a
+          >
+        </ul>
+        <ul class="footer_contact_item">
+          <a href="#" class="footer_contact_link">12, Maharashtra, Indian</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+  
+
+    <!-- Loads the specified .html file -->
+    <!-- <section class="vite-promo">
+  <div class="container">
+    <div class="wrapper">
+      <h2 class="title">
+        <span class="gradient">Vite</span>
+      </h2>
+      <p class="text">Next Generation Frontend Tooling</p>
+      <p class="tagline">
+        Get ready for a development environment that can finally catch up with
+        you.
+      </p>
+
+      <ul class="actions">
+        <li class="action">
+          <a
+            class="link"
+            href="https://vitejs.dev/guide/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Get Started</a
+          >
+        </li>
+        <li class="action">
+          <a
+            class="link"
+            href="https://github.com/vitejs/vite"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View on GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="thumb"> -->
+<!-- Path to images as from index.html file -->
+<!-- <img
+        class="pic"
+        src="./img/vite-logo.png"
+        alt="Vite logo"
+        width="640"
+        height="640"
+      />
+    </div>
+  </div>
+</section> -->
+
+
+    
+    <script src="./js/home_menu_data.js"></script>
+    <script src="./js/home_menu.js"></script>
+    <script src="./js/adversting_banner_data.js"></script>
+    <script src="./js/advertising_banner.js"></script>
+    <script src="./js/mein_menu_data.js"></script>
+    <script src="./js/mein_menu.js"></script>
+    <!-- <script>
+        if (!localStorage.getItem('hasVisited')) {
+            localStorage.setItem('hasVisited', 'true');
+            window.location.replace('page_login.html');
+        }
+    </script> -->
+  </body>
+</html>
