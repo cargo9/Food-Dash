@@ -61,3 +61,13 @@
   border: 1px solid red;
   height: 650px;
 }
+
+
+@media (width: 1024px) {
+  .h_homepage {
+    margin-bottom: -13px;
+    padding-top: 0px;
+    margin-top: -50px;  
+  }
+
+}

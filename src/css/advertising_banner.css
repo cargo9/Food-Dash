@@ -6,7 +6,13 @@
 
 .ul_advertising_banner {
   display: flex;
+  
 }
+
+/* .banner_item: {
+  margin-left: -100px;
+} */
+
 .p_Rajasthan_advertising_banner {
   color: #1a2716;
   font-family: Lexend;
@@ -59,9 +65,15 @@ li:nth-child(4) img.img_star_advertising_banner {
   left: 200px;
 }
 
-.ul_advertising_banner:nth-child(2)::after {
+.p_Rajasthan_advertising_banner:nth-child(1)::after {
   content: '';
   display: block;
   position: relative;
-  left: 100px;
+  left: 170px;
+}
+.p_Rajasthan_advertising_banner:nth-child(2)::after {
+  content: '';
+  display: block;
+  position: relative;
+  right: 200px;
 }

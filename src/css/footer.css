@@ -124,3 +124,38 @@
 
 .footer_contact_list {
 }
+
+@media (width:1024px) {
+  .footer_wrapper {
+    width: 702px;
+  display: flex;
+ margin: 0 auto;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  border: 1px solid blue;
+  
+
+}
+
+.footer_social_logo {
+  border: 1PX solid green;
+  width: 200PX;
+}
+.footer_menu_contact {
+ border: 1PX solid green;
+  width: 200PX;
+}
+.footer_information_list{
+  border: 1PX solid green;
+   width: 200PX;
+   margin-left: 100px;
+}
+.footer_contact_list {
+ border: 1PX solid green;
+  width: 200PX;
+}
+.span_all{
+  display: none;
+}
+
+}

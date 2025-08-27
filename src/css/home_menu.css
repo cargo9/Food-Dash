@@ -72,3 +72,16 @@
   margin-left: 50px;
   margin-top: 20px;
 }
+
+@media (width:1024px) {
+  .h2_home_menu {
+    margin-left: 100px;
+  }
+  .p_home_menu {
+    margin-left: 600px;
+    width: 400px;
+     margin-bottom: -15px;
+    padding-top: 0px;
+    margin-top: -106px;  
+  }
+}
