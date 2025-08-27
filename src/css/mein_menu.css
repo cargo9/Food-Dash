@@ -1,10 +1,4 @@
-@media (width: 1024px) {
-  .mein_menu {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 80px;
- }
-}
+
 
 .mein_menu {
   width: 1540px;
@@ -158,4 +152,23 @@
   line-height: normal;
   border-radius: 50px;
   margin-left: 170px;
+}
+
+@media (width: 1024px) {
+  .mein_menu {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 80px;
+ }
+
+ .food_card {
+  margin-top: 200px;
+  width: 800px;
+}
+
+.container {
+  width: 840px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
 }
