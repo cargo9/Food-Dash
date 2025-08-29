@@ -1,11 +1,17 @@
 .promo_banners {
+   display: flex;
   width: 1240px;
   margin: 0 auto;
-  display: flex;
   gap: 26px;
-
   margin-top: 60px;
   margin-bottom: 60px;
+    border: 5px solid blue;
+}
+
+.div_promo_banners {
+  display: flex;
+  gap: 26px;
+  margin:  0 auto;
 }
 
 .ul_promo_banners {

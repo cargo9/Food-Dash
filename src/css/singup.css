@@ -165,3 +165,12 @@ line-height: normal;
   background-color: #000000;
   color: white;
 }
+
+@media (width:1024px) {
+  .singup_div_form{
+    margin-left: 41px;
+  }
+  .singup_div{
+    width: 1024px;
+  }
+}
