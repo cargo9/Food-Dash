@@ -141,3 +141,10 @@
 }
 
 }
+@media (max-width: 425px) {
+  .ul_mini {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+}

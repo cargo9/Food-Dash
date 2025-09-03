@@ -73,7 +73,7 @@
   margin-top: 20px;
 }
 
-@media (width:1024px) {
+@media (max-width:1024px) {
   .h2_home_menu {
     margin-left: 100px;
   }
@@ -83,5 +83,13 @@
      margin-bottom: -15px;
     padding-top: 0px;
     margin-top: -106px;  
+  }
+}
+@media (max-width:425px) {
+  .home_menu {
+    height: 1000px;
+  }
+  .home_menu_margin {
+    margin-top: 360px;
   }
 }

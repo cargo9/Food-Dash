@@ -95,3 +95,13 @@
     margin: 1rem 0;
   }
 }
+
+@media (max-width:425px) {
+  .menu_list {
+
+    text-align: center;
+  }
+  .menu_link {
+    font-size: 20px !important;
+  }
+}

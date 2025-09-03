@@ -45,7 +45,6 @@
 
 .img_homepage {
   width: 500px;
-  height: 500px;
   margin-right: 100px;
   margin-top: 20px;
   margin-bottom: 100px;
@@ -63,11 +62,42 @@
 }
 
 
-@media (width: 1024px) {
+@media (max-width: 1024px) {
   .h_homepage {
     margin-bottom: -13px;
     padding-top: 0px;
     margin-top: -50px;  
+  }
+
+}
+
+@media (max-width: 425px) {
+  .h_homepage {
+    margin-bottom: -13px;
+    padding-top: 0px;
+    margin-top: -50px;  
+  }
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .wrapper_homepage {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 70px;
+  }
+  .h_homepage {
+    font-size: 27px;
+    width: 300px;
+  }
+  .img_homepage {
+    width: 250px;
+    margin: 0 auto;
+
+  }
+  .homepage_buttons {
+    margin-top: 50px;
   }
 
 }
