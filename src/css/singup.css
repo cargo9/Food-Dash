@@ -166,11 +166,27 @@ line-height: normal;
   color: white;
 }
 
-@media (width:1024px) {
+@media (max-width:1024px) {
   .singup_div_form{
     margin-left: 41px;
   }
   .singup_div{
     width: 1024px;
+  }
+}
+@media (max-width:425px) {
+  .singup_div_form{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .singup_div{
+    width: 425px;
+    margin: 0;
+    padding: 0;
+  }
+  .singup_div_img{
+    visibility: hidden;
+    width: 0;
   }
 }
