@@ -77,3 +77,16 @@ li:nth-child(4) img.img_star_advertising_banner {
   position: relative;
   right: 200px;
 }
+@media (max-width:425px) {
+  .ul_advertising_banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_item {
+    margin-left: 100px;
+  }
+  .p_Rajasthan_advertising_banner:nth-child(1)::after {
+  content: '';
+  left: 210px;
+}
+}

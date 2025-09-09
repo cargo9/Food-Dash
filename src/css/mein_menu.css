@@ -154,7 +154,7 @@
   margin-left: 170px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1024px) {
   .mein_menu {
   width: 800px;
   margin: 0 auto;
@@ -170,5 +170,42 @@
   width: 840px;
   margin: 0 auto;
   border: 2px solid red;
+}
+}
+@media (max-width:425px) {
+  .h2_mein_menu {
+    font-size: 40px;
+    margin-left: 25px;
+  }
+  .food_card {
+      /* margin-left: -147px; */
+    }
+  .p_mein_menu {
+    margin-left: 25px;
+  }
+  .ul_main_menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+  }
+  .img_potato_food_card {
+    border: #ff6000 dashed 5px;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    left: 40px;
+    top: -125px;
+  }
+  .container {
+  width: 425px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-left: 0px;
+}
+.button_mein_menu {
+  display: flex;
+  width: 150px;
+ margin-left: -30px;
+ margin-top: 40px;
 }
 }

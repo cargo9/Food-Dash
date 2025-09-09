@@ -72,7 +72,7 @@
   width: 220px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1024px) {
   .fast_delivery_mini_svg {
   margin-top: -30px;
   margin-left: -20px;
