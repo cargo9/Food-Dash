@@ -75,14 +75,23 @@
 
 @media (max-width:1024px) {
   .h2_home_menu {
-    margin-left: 100px;
+    margin-left: 50px;
+    font-size: 40px;
   }
   .p_home_menu {
-    margin-left: 600px;
-    width: 400px;
-     margin-bottom: -15px;
-    padding-top: 0px;
-    margin-top: -106px;  
+    margin-left: 484px;
+    width: 260px;
+    margin-top: -92px;
+  }
+  .home_menu_margin {
+    margin-top: 210px;
+  }
+  .img_food_card_home_menu {
+    width: 215px;
+    height: 215px;
+  }
+  .li_food_card {
+    width: 215px;
   }
 }
 @media (max-width:425px) {

@@ -61,21 +61,27 @@
   height: 650px;
 }
 
-
 @media (max-width: 1024px) {
   .h_homepage {
     margin-bottom: -13px;
     padding-top: 0px;
-    margin-top: -50px;  
+    margin-top: -50px;
   }
-
+    .h_homepage {
+    font-size: 40px;
+  }
+  .img_homepage {
+    width: 350px;
+  height: 350PX;
+  margin-top: 100PX;
+  }
 }
 
 @media (max-width: 425px) {
   .h_homepage {
     margin-bottom: -13px;
     padding-top: 0px;
-    margin-top: -50px;  
+    margin-top: -50px;
   }
   .homepage {
     display: flex;
@@ -94,10 +100,13 @@
   .img_homepage {
     width: 250px;
     margin: 0 auto;
-
   }
   .homepage_buttons {
     margin-top: 50px;
   }
-
+}
+@media screen and (min-width: 768px) and(max-width:1023px) {
+  .h_homepage {
+    font-size: 10px;
+  }
 }

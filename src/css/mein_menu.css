@@ -9,7 +9,7 @@
 .ul_main_menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 145px;
 }
 
@@ -161,6 +161,25 @@
   margin-top: 80px;
  }
 
+ .ul_main_menu {
+      display: flex;
+    flex-wrap: wrap;
+    gap: 115px;
+ }
+
+ .img_potato_food_card {
+  border: #ff6000 dashed 5px;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    left: 41px;
+    top: -100px;
+ }
+
+ .container {
+  width: 769px !important;
+ }
+
  .food_card {
   margin-top: 200px;
   width: 800px;
@@ -168,10 +187,11 @@
 
 .container {
   width: 840px;
-  margin: 0 auto;
   border: 2px solid red;
 }
 }
+
+
 @media (max-width:425px) {
   .h2_mein_menu {
     font-size: 40px;
@@ -198,7 +218,6 @@
   }
   .container {
   width: 425px;
-  margin: 0 auto;
   border: 2px solid red;
   margin-left: 0px;
 }

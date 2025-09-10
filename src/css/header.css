@@ -105,3 +105,10 @@
     font-size: 20px !important;
   }
 }
+
+@media (min-width:768px)and(max-width:1023px) {
+ .menu_link {
+    font-size: 25px !important;
+    
+  }
+}

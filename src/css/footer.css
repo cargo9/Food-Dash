@@ -1,6 +1,7 @@
 .footer {
   background-color: #ffefe6;
   border-top: 2px dashed #ff6000;
+  margin: 0 auto;
 }
 
 .footer_wrapper {
@@ -8,10 +9,9 @@
   display: flex;
   justify-content: space-between;
   gap: 100px;
-  width: 1240px;
+  width: 1348px;
   margin: 0 auto;
   padding-left: 0;
-  margin-left: -50px;
 }
 
 .footer_logo {
@@ -73,8 +73,7 @@
   color: #939393;
   margin-top: 32px;
 }
-.footer_menu_contact {
-}
+
 
 .footer_information {
   font-family: Lexend;
@@ -122,8 +121,7 @@
   width: 222px;
 }
 
-.footer_contact_list {
-}
+
 
 @media (max-width:1024px) {
   .footer_wrapper {
