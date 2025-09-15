@@ -17,7 +17,8 @@
 .ul_promo_banners {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  justify-content: center;
+  gap: 10%;
 }
 
 @media (max-width:1024px) {
@@ -37,6 +38,9 @@
   width: 680px;
 
   justify-content: center;
+}
+.ul_promo_banners {
+  gap: 10px;
 }
 }
 @media (max-width:425px) {

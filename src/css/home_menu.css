@@ -28,7 +28,7 @@
   color: #b3b3b3;
   width: 475px;
   /* margin-left: 1250px; */
-  margin-left: 70%;
+  margin-left: 55%;
   margin-top: -80px;
 }
 .ul_food_cards_home_menu {
@@ -80,11 +80,11 @@
   }
   .p_home_menu {
     margin-left: 484px;
-    width: 260px;
     margin-top: -92px;
   }
   .home_menu_margin {
-    margin-top: 210px;
+    margin-top: 310px;
+ 
   }
   .img_food_card_home_menu {
     width: 215px;
@@ -92,6 +92,13 @@
   }
   .li_food_card {
     width: 215px;
+  }
+}
+@media (max-width:768px) {
+  .p_home_menu {
+    margin-left: 484px;
+    margin-top: -92px;
+    width: 30%;
   }
 }
 @media (max-width:425px) {

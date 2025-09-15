@@ -16,7 +16,7 @@
 }
 
 .fast_delivery_mini_svg {
-  margin-top: -30px;
+  margin-top: -10px;
   width: 100px;
   height: 100px;
 }
@@ -154,5 +154,10 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .ul_mini {
+    gap: 12px;
   }
 }

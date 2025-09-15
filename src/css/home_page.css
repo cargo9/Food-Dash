@@ -75,6 +75,9 @@
   height: 350PX;
   margin-top: 100PX;
   }
+  .wrapper_homepage {
+    margin-top: 165px;
+  }
 }
 
 @media (max-width: 425px) {

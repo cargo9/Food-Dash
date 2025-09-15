@@ -90,3 +90,13 @@ li:nth-child(4) img.img_star_advertising_banner {
   left: 210px;
 }
 }
+@media (max-width:1024px) {
+  .advertising_banner {
+    margin-top: 100px;
+  }
+}
+@media (max-width:768px) {
+  .advertising_banner {
+    margin-top: 200px;
+  }
+}

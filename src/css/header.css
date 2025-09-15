@@ -94,6 +94,11 @@
     gap: 1rem;
     margin: 1rem 0;
   }
+   .menu_link {
+    font-size: 25px !important;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width:425px) {
