@@ -141,7 +141,6 @@
 .li_column {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 222px;
   height: 100px;
   margin-top: 25px;
@@ -152,8 +151,13 @@
 @media (max-width: 425px) {
   .ul_mini {
     display: flex;
-    gap: 20px;
+    gap: 33px !important;
     flex-direction: column;
+
+  }
+  .li_column {
+    height: auto;
+    width: 300px;
   }
 }
 @media (max-width: 768px) {

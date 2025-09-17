@@ -1,6 +1,5 @@
 .container {
   width: 95%;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -13,8 +12,10 @@
 .ul_main_menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 145px;
+  width: 87%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .h2_mein_menu {
@@ -169,6 +170,8 @@
       display: flex;
     flex-wrap: wrap;
     gap: 115px;
+    width: 90%;
+
  }
 
  .img_potato_food_card {
@@ -191,12 +194,17 @@
 
 .container {
   width: 840px;
-  border: 2px solid red;
 }
 }
 
 
 @media (max-width:425px) {
+  .mein_menu {
+    width: 425px;
+  }
+  .container {
+    width: 425px !important;
+  }
   .h2_mein_menu {
     font-size: 40px;
     margin-left: 25px;
@@ -210,7 +218,11 @@
   .ul_main_menu {
     display: flex;
     flex-direction: column;
-    margin-left: 65px;
+
+  }
+
+  .food_card_Angoori {
+    margin-left: 40px;
   }
   .img_potato_food_card {
     border: #ff6000 dashed 5px;
@@ -222,23 +234,36 @@
   }
   .container {
   width: 425px;
-  border: 2px solid red;
   margin-left: 0px;
 }
 .button_mein_menu {
   display: flex;
   width: 150px;
- margin-left: -30px;
- margin-top: 40px;
+  margin-top: 223px;
+  margin-left: -350px;
 }
 }
 
 @media (max-width:768px) {
   .container {
-    width: 80%;
+    width: 90% !important;
   }
+.mein_menu {
+  width: 100%;
+}
+
+.food_card {
+  width: 768px;
+}
 
 .ul_main_menu {
-  gap: 140px;
+   display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    width: 89%;
+    margin-left: 0;
+}
+.food_card_Angoori {
+  margin-bottom: 100px;
 }
 }
