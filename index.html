@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
      <script>
-        if (!localStorage.getItem('hasVisited')) {
-            localStorage.setItem('hasVisited', 'true');
-            window.location.replace('page_login.html');
-        }
-    </script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!localStorage.getItem("hasVisited")) {
+      localStorage.setItem("hasVisited", "true");
+      window.location.href = "/page_login.html"; 
+    }
+  });
+</script>
     
     <script type="module" crossorigin src="/Food-Dash/assets/main-3cfb730f.js"></script>
     <link rel="stylesheet" href="/Food-Dash/assets/styles-5c29c85e.css">
