@@ -75,6 +75,7 @@ function renderBestDishes() {
     image.src = bestDish.image;
     image.alt = bestDish.name;
     image.classList.add('img_ul1_home_page2');
+    image.classList.add('rotate-center');
 
     const name = document.createElement('p');
     name.textContent = bestDish.name;

@@ -11,6 +11,7 @@ function renderBestRegular() {
     image.src = bestRegulars.image;
     image.alt = bestRegulars.name;
     image.classList.add('img_ul1_home_page2');
+    image.classList.add('rotate-center');
 
     const name = document.createElement('p');
     name.textContent = bestRegulars.name;

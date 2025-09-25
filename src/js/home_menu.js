@@ -9,6 +9,7 @@ function displayDishes() {
     image.src = dish.image;
     image.alt = dish.name;
     image.classList.add('img_food_card_home_menu');
+    image.classList.add('rotate-center');
 
     const title = document.createElement('p');
     title.textContent = dish.name;
@@ -17,6 +18,7 @@ function displayDishes() {
     const link = document.createElement('a');
     link.textContent = dish.link;
     link.classList.add('button_food_card_home_menu');
+     
 
     listItem.appendChild(image);
     listItem.appendChild(title);

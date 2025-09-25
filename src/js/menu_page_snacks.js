@@ -11,6 +11,7 @@ function renderBestSnacks() {
     image.src = bestSnacks.image;
     image.alt = bestSnacks.name;
     image.classList.add('img_ul1_home_page2');
+    image.classList.add('rotate-center');
 
     const name = document.createElement('p');
     name.textContent = bestSnacks.name;

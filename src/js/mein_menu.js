@@ -9,6 +9,7 @@ function displayPriceDishes() {
     image.src = priceDish.image;
     image.alt = priceDish.name;
     image.classList.add('img_potato_food_card');
+    image.classList.add('rotate-center');
 
     const span = document.createElement('span');
     span.textContent = priceDish.span;
@@ -33,6 +34,8 @@ function displayPriceDishes() {
     const button = document.createElement('button');
     button.textContent = priceDish.button;
     button.classList.add('button_food_card_Angoori');
+     button.classList.add('shadow-drop-2-center');
+    
 
     listPrice.appendChild(image);
     listPrice.appendChild(span);
