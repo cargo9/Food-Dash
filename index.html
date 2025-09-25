@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Food-Dash/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +16,7 @@
 </script>
     
     <script type="module" crossorigin src="/Food-Dash/assets/main-3cfb730f.js"></script>
-    <link rel="stylesheet" href="/Food-Dash/assets/styles-5c29c85e.css">
+    <link rel="stylesheet" href="/Food-Dash/assets/styles-9c665932.css">
   </head>
   <body class="body"> 
     <header class="header">
@@ -42,20 +43,20 @@
 
     <section class="homepage">
   <div class="wrapper_homepage">
-    <h1 class="h_homepage">
+    <h1 class="h_homepage tracking-in-expand">
       Quick <span class="mini_word_homepage">and</span> Tasty<br />
       Food Delivered <span class="mini_word_homepage">with</span> a Dash of
       <span class="mini_word_homepage">Speed</span>
     </h1>
     <div class="homepage_buttons">
-    <button class="button_homepage">Order Now</button>
-    <button class="button_homepage transparent_btn">Track Order</button>
+    <button class="button_homepage shadow-inset-center">Order Now</button>
+    <button class="button_homepage shadow-inset-center transparent_btn">Track Order</button>
     </div>
   </div>
-  <img class="img_homepage" src="../img/general_photo.png" alt="photo" />
+  <img class="img_homepage rotate-center" src="../img/general_photo.png" alt="photo" />
 </section>
 
-    <section class="mini">
+    <section data-aos="flip-down" class="mini">
   <ul class="ul_mini">
     <li class="li_column">
       <img
@@ -313,5 +314,9 @@
             window.location.replace('page_login.html');
         }
     </script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
   </body>
 </html>
